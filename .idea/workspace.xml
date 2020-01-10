@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac940336-f324-425e-9637-d9da4a9decba" name="Default" comment="" />
+    <list default="true" id="ac940336-f324-425e-9637-d9da4a9decba" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftMediasPickerPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SwiftMediasPickerPlugin.swift" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,42 +19,74 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/medias_picker.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+            <state relative-caret-position="264">
+              <caret line="43" column="75" selection-start-line="43" selection-start-column="75" selection-end-line="43" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
+        <entry file="file://$PROJECT_DIR$/android/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="480">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ios/Classes/SwiftMediasPickerPlugin.swift">
+        <entry file="file://$PROJECT_DIR$/example/android/build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/android/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="751">
-              <caret line="333" selection-start-line="333" selection-end-line="333" />
+            <state relative-caret-position="645">
+              <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/android/gradle.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/android/src/main/java/com/example/mediaspicker/MediasPickerPlugin.java">
+        <entry file="file://$PROJECT_DIR$/ios/Classes/SwiftMediasPickerPlugin.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-234">
-              <caret line="23" column="46" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="46" />
+            <state relative-caret-position="300">
+              <caret line="134" column="25" selection-start-line="134" selection-start-column="25" selection-end-line="134" selection-end-column="25" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/src/main/java/com/example/mediaspicker/MediasPickerPlugin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="94" column="58" lean-forward="true" selection-start-line="94" selection-start-column="58" selection-end-line="94" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ios/Classes/MediasPickerPlugin.m">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ios/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -57,6 +94,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>SVProgressHUD.</find>
+      <find>2.0.0-rc01</find>
+      <find>compressImages</find>
+      <find>image_picker_</find>
+      <find>CompressImage</find>
+      <find>ResizeImage</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -67,13 +109,13 @@
       <list>
         <option value="$PROJECT_DIR$/lib/medias_picker.dart" />
         <option value="$PROJECT_DIR$/example/lib/main.dart" />
-        <option value="$PROJECT_DIR$/ios/Classes/SwiftMediasPickerPlugin.swift" />
         <option value="$PROJECT_DIR$/android/src/main/java/com/example/mediaspicker/MediasPickerPlugin.java" />
+        <option value="$PROJECT_DIR$/ios/Classes/SwiftMediasPickerPlugin.swift" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="y" value="23" />
     <option name="width" value="2560" />
     <option name="height" value="1325" />
   </component>
@@ -86,32 +128,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="medias_picker" type="b2602c69:ProjectViewProjectNode" />
               <item name="medias_picker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medias_picker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medias_picker" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medias_picker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medias_picker" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medias_picker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medias_picker" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="mediaspicker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="medias_picker" type="b2602c69:ProjectViewProjectNode" />
@@ -123,11 +147,6 @@
               <item name="medias_picker" type="462c0819:PsiDirectoryNode" />
               <item name="ios" type="462c0819:PsiDirectoryNode" />
               <item name="Classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medias_picker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medias_picker" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,30 +226,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2560" height="1325" extended-state="0" />
+    <frame x="0" y="23" width="2560" height="1325" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Resources Explorer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.120730735" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.120730735" />
       <window_info id="Structure" order="1" weight="0.24978012" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32927817" />
+      <window_info id="Resources Explorer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24979724" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24979724" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32846716" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32846716" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32920355" />
       <window_info anchor="bottom" id="Dart Analysis" order="10" weight="0.3293011" />
-      <window_info anchor="right" id="Fabric" />
+      <window_info anchor="bottom" id="Flutter Performance" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32927817" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -239,16 +258,10 @@
       <window_info anchor="right" id="Flutter Inspector" order="5" weight="0.3298153" />
       <window_info anchor="right" id="Flutter Outline" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Fabric" order="8" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/medias_picker.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -259,17 +272,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/Classes/SwiftMediasPickerPlugin.swift">
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
-          <caret line="333" selection-start-line="333" selection-end-line="333" />
+        <state relative-caret-position="480">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/android/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/android/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/medias_picker.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="43" column="75" selection-start-line="43" selection-start-column="75" selection-end-line="43" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/example/mediaspicker/MediasPickerPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-234">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="46" />
+        <state relative-caret-position="401">
+          <caret line="94" column="58" lean-forward="true" selection-start-line="94" selection-start-column="58" selection-end-line="94" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Classes/MediasPickerPlugin.m">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Classes/SwiftMediasPickerPlugin.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="134" column="25" selection-start-line="134" selection-start-column="25" selection-end-line="134" selection-end-column="25" />
         </state>
       </provider>
     </entry>
