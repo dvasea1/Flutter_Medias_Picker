@@ -112,6 +112,7 @@ public class SwiftMediasPickerPlugin: NSObject, FlutterPlugin, GalleryController
                 let manager = PHImageManager.default()
                 let requestOptions = PHImageRequestOptions()
                 requestOptions.resizeMode = .exact
+                requestOptions.version = .original
                 requestOptions.deliveryMode = .highQualityFormat;
                 requestOptions.isNetworkAccessAllowed = true;
                 requestOptions.isSynchronous = true
