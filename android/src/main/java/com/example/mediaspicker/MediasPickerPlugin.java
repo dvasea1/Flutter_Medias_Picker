@@ -103,10 +103,10 @@ public class MediasPickerPlugin implements MethodCallHandler, PluginRegistry.Act
       ArrayList<String> newImgPaths = new ArrayList<>();
 
       for (String path : imgPaths) {
-        String newPath = CompressImage(path, maxWidth, maxHeight, quality);
+       // String newPath = CompressImage(path, maxWidth, maxHeight, quality);
 
-        if (newPath != null && newPath != "")
-          newImgPaths.add(newPath);
+        if (path != null && path != "")
+          newImgPaths.add(path);
           
       }
       this.result = result;
