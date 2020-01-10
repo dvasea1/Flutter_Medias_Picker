@@ -75,6 +75,7 @@ public class MediasPickerPlugin implements MethodCallHandler, PluginRegistry.Act
       FilePickerBuilder.getInstance().setMaxCount(quantity)
               .enableVideoPicker(false)
               .enableImagePicker(true)
+              .enableCameraSupport(true)
               .pickPhoto(activity);
 
 
@@ -88,6 +89,7 @@ public class MediasPickerPlugin implements MethodCallHandler, PluginRegistry.Act
       FilePickerBuilder.getInstance().setMaxCount(quantity)
               .enableVideoPicker(true)
               .enableImagePicker(false)
+              .enableCameraSupport(true)
               .pickPhoto(activity);
 
     } else if (call.method.equals("deleteAllTempFiles")) {
