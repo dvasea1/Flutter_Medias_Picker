@@ -312,10 +312,10 @@ public class MediasPickerPlugin implements MethodCallHandler, PluginRegistry.Act
         if (isPhoto) {
           for(String item: paths){
 
-            String path = CompressImage(item, maxWidth, maxHeight , quality);
+           // String path = CompressImage(item, maxWidth, maxHeight , quality);
 
-            if (path != null)
-              docPaths.add(path);
+            if (item != null)
+              docPaths.add(item);
           }
         } else {
           docPaths = paths;
