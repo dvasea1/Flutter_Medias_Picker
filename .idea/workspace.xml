@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac940336-f324-425e-9637-d9da4a9decba" name="Default" comment="" />
+    <list default="true" id="ac940336-f324-425e-9637-d9da4a9decba" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftMediasPickerPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SwiftMediasPickerPlugin.swift" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ios/Classes/SwiftMediasPickerPlugin.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="115" column="31" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
+            <state relative-caret-position="492">
+              <caret line="143" column="82" selection-start-line="143" selection-start-column="82" selection-end-line="143" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -65,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android/src/main/java/com/example/mediaspicker/MediasPickerPlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
+            <state relative-caret-position="945">
               <caret line="94" column="58" selection-start-line="94" selection-start-column="58" selection-end-line="94" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -124,7 +126,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -148,6 +149,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,9 +300,12 @@
     <entry file="file://$PROJECT_DIR$/example/android/gradle.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Classes/MediasPickerPlugin.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/example/mediaspicker/MediasPickerPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
+        <state relative-caret-position="945">
           <caret line="94" column="58" selection-start-line="94" selection-start-column="58" selection-end-line="94" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -314,13 +319,10 @@
     <entry file="file://$PROJECT_DIR$/ios/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/Classes/MediasPickerPlugin.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ios/Classes/SwiftMediasPickerPlugin.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="115" column="31" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
+        <state relative-caret-position="492">
+          <caret line="143" column="82" selection-start-line="143" selection-start-column="82" selection-end-line="143" selection-end-column="82" />
         </state>
       </provider>
     </entry>
