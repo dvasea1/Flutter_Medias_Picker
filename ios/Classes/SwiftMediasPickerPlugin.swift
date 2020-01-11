@@ -133,15 +133,15 @@ public class SwiftMediasPickerPlugin: NSObject, FlutterPlugin, GalleryController
                 // Request Image
                 manager.requestImageData(for: image.asset, options: requestOptions, resultHandler: { (data, _, _, _) in
                     if data != nil {
-                        var img = UIImage(data: data!)
+                       // var img = UIImage(data: data!)
                        // img = self.ResizeImage(image: img!, targetSize: CGSize(width: Double(self.maxWidth!), height: Double(self.maxHeight!)))
-                        let nData = img!.jpegData(compressionQuality: (CGFloat(self.quality!) / CGFloat(100)))
+                        //let nData = img!.jpegData(compressionQuality: (CGFloat(self.quality!) / CGFloat(100)))
                         let guid = NSUUID().uuidString
                         let tmpFile = String(format: "image_picker_%@.jpg", guid)
                         let tmpDirec = NSTemporaryDirectory()
                         let tmpPath = (tmpDirec as NSString).appendingPathComponent(tmpFile)
 
-                        if fileManager.createFile(atPath: tmpPath, contents: nData, attributes: nil) {
+                        if fileManager.createFile(atPath: tmpPath, contents: data, attributes: nil) {
                             print(tmpPath)
                             resultUrls.add(tmpPath)
                         } else {
