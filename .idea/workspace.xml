@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac940336-f324-425e-9637-d9da4a9decba" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftMediasPickerPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SwiftMediasPickerPlugin.swift" afterDir="false" />
-    </list>
+    <list default="true" id="ac940336-f324-425e-9637-d9da4a9decba" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ios/Classes/SwiftMediasPickerPlugin.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="143" column="82" selection-start-line="143" selection-start-column="82" selection-end-line="143" selection-end-column="82" />
+            <state relative-caret-position="657">
+              <caret line="154" column="53" lean-forward="true" selection-start-line="154" selection-start-column="53" selection-end-line="154" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -321,8 +319,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ios/Classes/SwiftMediasPickerPlugin.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="143" column="82" selection-start-line="143" selection-start-column="82" selection-end-line="143" selection-end-column="82" />
+        <state relative-caret-position="657">
+          <caret line="154" column="53" lean-forward="true" selection-start-line="154" selection-start-column="53" selection-end-line="154" selection-end-column="53" />
         </state>
       </provider>
     </entry>

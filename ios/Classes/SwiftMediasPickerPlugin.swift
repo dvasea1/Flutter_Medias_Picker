@@ -111,9 +111,9 @@ public class SwiftMediasPickerPlugin: NSObject, FlutterPlugin, GalleryController
 
                 let manager = PHImageManager.default()
                 let requestOptions = PHImageRequestOptions()
-                requestOptions.resizeMode = .exact
+                //requestOptions.resizeMode = .exact
                 requestOptions.deliveryMode = .highQualityFormat;
-                 requestOptions.version = .original
+                 requestOptions.version = .current
                 requestOptions.isNetworkAccessAllowed = true;
                 requestOptions.isSynchronous = true
                 requestOptions.progressHandler = { (progress, error, stop, info) in
@@ -133,11 +133,21 @@ public class SwiftMediasPickerPlugin: NSObject, FlutterPlugin, GalleryController
                 // Request Image
                 manager.requestImageData(for: image.asset, options: requestOptions, resultHandler: { (data, _, _, _) in
                     if data != nil {
-                        var img = UIImage(data: data!)
+                    var nData : Data!
+
+                    if #available(iOS 11.0, *) {
+                     let ciImage = CIImage(data: data!, options: [CIImageOption.applyOrientationProperty : true])
+                                            nData = CIContext().jpegRepresentation(of: ciImage!, colorSpace: CGColorSpaceCreateDeviceRGB())!
+                                            } else {
+                                            let img = UIImage(data: data!)
+                                             nData = img!.jpegData(compressionQuality: (CGFloat(self.quality!) / CGFloat(100)))
+                                            }
+
+                        //var img = UIImage(data: data!)
                        // img = self.ResizeImage(image: img!, targetSize: CGSize(width: Double(self.maxWidth!), height: Double(self.maxHeight!)))
-                        let nData = img!.jpegData(compressionQuality: (CGFloat(self.quality!) / CGFloat(100)))
+                        //let nData = img!.jpegData(compressionQuality: (CGFloat(self.quality!) / CGFloat(100)))
                         let guid = NSUUID().uuidString
-                        let tmpFile = String(format: "image_picker_%@.jpg", guid)
+                        let tmpFile = String(format: "image_picker_%@.jpeg", guid)
                         let tmpDirec = NSTemporaryDirectory()
                         let tmpPath = (tmpDirec as NSString).appendingPathComponent(tmpFile)
 
