@@ -76,6 +76,7 @@ public class MediasPickerPlugin implements MethodCallHandler, PluginRegistry.Act
               .enableVideoPicker(false)
               .enableImagePicker(true)
               .enableCameraSupport(true)
+              .showFolderView(false)
               .pickPhoto(activity);
 
 
