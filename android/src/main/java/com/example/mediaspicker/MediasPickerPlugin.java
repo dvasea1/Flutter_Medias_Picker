@@ -91,6 +91,7 @@ public class MediasPickerPlugin implements MethodCallHandler, PluginRegistry.Act
               .enableVideoPicker(true)
               .enableImagePicker(false)
               .enableCameraSupport(true)
+              .showFolderView(false)
               .pickPhoto(activity);
 
     } else if (call.method.equals("deleteAllTempFiles")) {
